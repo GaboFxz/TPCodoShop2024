@@ -1,0 +1,93 @@
+[
+    {
+        "id" : 1,
+        "titulo" : "Remera 1",
+        "img" : "./assets/img/productos/remera_1.webp",
+        "precio" : 100,
+        "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam ab!",
+        "talles" : ["S", "M", "L"],
+        "colores" : ["Negro", "Blanco", "Gris"]
+    },
+    {
+        "id" : 2,
+        "titulo" : "Remera 2",
+        "img" : "./assets/img/productos/remera_2.webp",
+        "precio" : 200,
+        "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam ab!",
+        "talles" : ["S", "M", "L"],
+        "colores" : ["Negro", "Blanco", "Gris"]
+    },
+    {
+        "id" : 3,
+        "titulo" : "Remera 3",
+        "img" : "./assets/img/productos/remera_3.webp",
+        "precio" : 200,
+        "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam ab!",
+        "talles" : ["S", "M", "L"],
+        "colores" : ["Negro", "Blanco", "Gris"]
+    },
+    {
+        "id" : 4,
+        "titulo" : "Remera 4",
+        "img" : "./assets/img/productos/remera_4.webp",
+        "precio" : 200,
+        "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam ab!",
+        "talles" : ["S", "M", "L"],
+        "colores" : ["Negro", "Blanco", "Gris"]
+    },
+    {
+        "id" : 5,
+        "titulo" : "Remera 5",
+        "img" : "./assets/img/productos/remera_5.webp",
+        "precio" : 200,
+        "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam ab!",
+        "talles" : ["S", "M", "L"],
+        "colores" : ["Negro", "Blanco", "Gris"]
+    },
+    {
+        "id" : 6,
+        "titulo" : "Remera 6",
+        "img" : "./assets/img/productos/remera_6.webp",
+        "precio" : 200,
+        "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam ab!",
+        "talles" : ["S", "M"],
+        "colores" : ["Negro", "Blanco", "Gris"]
+    },
+    {
+        "id" : 7,
+        "titulo" : "Remera 7",
+        "img" : "./assets/img/productos/remera_7.webp",
+        "precio" : 200,
+        "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam ab!",
+        "talles" : ["S", "M", "L"],
+        "colores" : ["Negro"]
+    },
+    {
+        "id" : 8,
+        "titulo" : "Remera 8",
+        "img" : "./assets/img/productos/remera_8.webp",
+        "precio" : 200,
+        "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam ab!",
+        "talles" : ["S", "M"],
+        "colores" : ["Negro", "Rojo"]
+    },
+    {
+        "id" : 9,
+        "titulo" : "Remera 9",
+        "img" : "./assets/img/productos/remera_9.webp",
+        "precio" : 200,
+        "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam ab!",
+        "talles" : ["S", "M", "L", "XL"],
+        "colores" : ["Negro", "Blanco", "Gris"]
+    },
+    {
+        "id" : 10,
+        "titulo" : "Remera 10",
+        "img" : "./assets/img/productos/remera_10.webp",
+        "precio" : 200,
+        "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam a",
+        "talles" : ["S", "M", "L"],
+        "colores" : ["Blanco", "Gris"]
+    }
+]
+

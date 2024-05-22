@@ -1,0 +1,30 @@
+.contenedor-principal{
+    width: 70% !important;
+    display: flex;
+}
+.contenedor-principal img{
+    width: 350px;
+}
+
+/* Media queries Celular*/
+@media screen and (max-width: 500px ){
+    .contenedor-principal img{
+        width: 100%;
+    }
+    .contenedor-principal{
+        display: block;
+    }
+}
+
+/* Media queries Tableta*/
+@media screen and (max-width: 768px ){
+    .contenedor-principal img{
+        width: 50%;
+    }
+    .contenedor-principal{
+        width: 100%;
+    }
+    .contenedor-detalles{
+        display: block;
+    }
+}
