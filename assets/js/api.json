@@ -6,7 +6,8 @@
         "precio" : 100,
         "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam ab!",
         "talles" : ["S", "M", "L"],
-        "colores" : ["Negro", "Blanco", "Gris"]
+        "colores" : ["Negro", "Blanco", "Gris"],
+        "destacado" : true
     },
     {
         "id" : 2,
@@ -15,7 +16,8 @@
         "precio" : 200,
         "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam ab!",
         "talles" : ["S", "M", "L"],
-        "colores" : ["Negro", "Blanco", "Gris"]
+        "colores" : ["Negro", "Blanco", "Gris"],
+        "destacado" : false
     },
     {
         "id" : 3,
@@ -24,7 +26,8 @@
         "precio" : 200,
         "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam ab!",
         "talles" : ["S", "M", "L"],
-        "colores" : ["Negro", "Blanco", "Gris"]
+        "colores" : ["Negro", "Blanco", "Gris"],
+        "destacado" : true
     },
     {
         "id" : 4,
@@ -33,7 +36,8 @@
         "precio" : 200,
         "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam ab!",
         "talles" : ["S", "M", "L"],
-        "colores" : ["Negro", "Blanco", "Gris"]
+        "colores" : ["Negro", "Blanco", "Gris"],
+        "destacado" : false
     },
     {
         "id" : 5,
@@ -42,7 +46,8 @@
         "precio" : 200,
         "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam ab!",
         "talles" : ["S", "M", "L"],
-        "colores" : ["Negro", "Blanco", "Gris"]
+        "colores" : ["Negro", "Blanco", "Gris"],
+        "destacado" : false
     },
     {
         "id" : 6,
@@ -51,7 +56,8 @@
         "precio" : 200,
         "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam ab!",
         "talles" : ["S", "M"],
-        "colores" : ["Negro", "Blanco", "Gris"]
+        "colores" : ["Negro", "Blanco", "Gris"],
+        "destacado" : true
     },
     {
         "id" : 7,
@@ -60,7 +66,8 @@
         "precio" : 200,
         "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam ab!",
         "talles" : ["S", "M", "L"],
-        "colores" : ["Negro"]
+        "colores" : ["Negro"],
+        "destacado" : false
     },
     {
         "id" : 8,
@@ -69,7 +76,8 @@
         "precio" : 200,
         "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam ab!",
         "talles" : ["S", "M"],
-        "colores" : ["Negro", "Rojo"]
+        "colores" : ["Negro", "Rojo"],
+        "destacado" : true
     },
     {
         "id" : 9,
@@ -78,7 +86,8 @@
         "precio" : 200,
         "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam ab!",
         "talles" : ["S", "M", "L", "XL"],
-        "colores" : ["Negro", "Blanco", "Gris"]
+        "colores" : ["Negro", "Blanco", "Gris"],
+        "destacado" : false
     },
     {
         "id" : 10,
@@ -87,7 +96,107 @@
         "precio" : 200,
         "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam a",
         "talles" : ["S", "M", "L"],
-        "colores" : ["Blanco", "Gris"]
+        "colores" : ["Blanco", "Gris"],
+        "destacado" : false
+    },
+    {
+        "id" : 11,
+        "titulo" : "Remera 11",
+        "img" : "./assets/img/productos/remera_1.webp",
+        "precio" : 100,
+        "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam ab!",
+        "talles" : ["S", "M", "L"],
+        "colores" : ["Negro", "Blanco", "Gris"],
+        "destacado" : true
+    },
+    {
+        "id" : 12,
+        "titulo" : "Remera 12",
+        "img" : "./assets/img/productos/remera_2.webp",
+        "precio" : 200,
+        "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam ab!",
+        "talles" : ["S", "M", "L"],
+        "colores" : ["Negro", "Blanco", "Gris"],
+        "destacado" : false
+    },
+    {
+        "id" : 13,
+        "titulo" : "Remera 13",
+        "img" : "./assets/img/productos/remera_3.webp",
+        "precio" : 200,
+        "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam ab!",
+        "talles" : ["S", "M", "L"],
+        "colores" : ["Negro", "Blanco", "Gris"],
+        "destacado" : true
+    },
+    {
+        "id" : 14,
+        "titulo" : "Remera 14",
+        "img" : "./assets/img/productos/remera_4.webp",
+        "precio" : 200,
+        "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam ab!",
+        "talles" : ["S", "M", "L"],
+        "colores" : ["Negro", "Blanco", "Gris"],
+        "destacado" : false
+    },
+    {
+        "id" : 15,
+        "titulo" : "Remera 15",
+        "img" : "./assets/img/carrusel/carrusel_1.webp",
+        "precio" : 200,
+        "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam ab!",
+        "talles" : ["S", "M", "L"],
+        "colores" : ["Negro", "Blanco", "Gris"],
+        "destacado" : false
+    },
+    {
+        "id" : 16,
+        "titulo" : "Remera 16",
+        "img" : "./assets/img/carrusel/carrusel_2.webp",
+        "precio" : 200,
+        "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam ab!",
+        "talles" : ["S", "M"],
+        "colores" : ["Negro", "Blanco", "Gris"],
+        "destacado" : true
+    },
+    {
+        "id" : 17,
+        "titulo" : "Remera 17",
+        "img" : "./assets/img/carrusel/carrusel_3.webp",
+        "precio" : 200,
+        "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam ab!",
+        "talles" : ["S", "M", "L"],
+        "colores" : ["Negro"],
+        "destacado" : false
+    },
+    {
+        "id" : 18,
+        "titulo" : "Remera 18",
+        "img" : "./assets/img/carrusel/carrusel_4.webp",
+        "precio" : 200,
+        "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam ab!",
+        "talles" : ["S", "M"],
+        "colores" : ["Negro", "Rojo"],
+        "destacado" : true
+    },
+    {
+        "id" : 19,
+        "titulo" : "Remera 19",
+        "img" : "./assets/img/carrusel/carrusel_5.webp",
+        "precio" : 200,
+        "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam ab!",
+        "talles" : ["S", "M", "L", "XL"],
+        "colores" : ["Negro", "Blanco", "Gris"],
+        "destacado" : false
+    },
+    {
+        "id" : 20,
+        "titulo" : "Remera 20",
+        "img" : "./assets/img/carrusel/carrusel_6.webp",
+        "precio" : 200,
+        "descripcion" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut est tempore corrupti nam totam esse officia. Itaque, quibusdam omnis maxime obcaecati consequatur molestiae consequuntur placeat, praesentium delectus eligendi magnam a",
+        "talles" : ["S", "M", "L"],
+        "colores" : ["Blanco", "Gris"],
+        "destacado" : false
     }
 ]
-

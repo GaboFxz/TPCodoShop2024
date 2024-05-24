@@ -21,6 +21,6 @@ const getProductoById = (id, productos) => {
     return productos.filter(producto => producto.id == id)[0];
 }
 
-const getProductosNovedades = (cantidad, productos) => {
-    return productos.splice(0, cantidad);
+const getProductosNovedades = (productos) => {
+    return productos.filter(producto => producto.destacado);
 }
