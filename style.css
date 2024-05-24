@@ -112,15 +112,7 @@ header{
     color: floralwhite;
 }
 
-/* Estilos del botón de menú móvil */
-.menu-toggle {
-    display: none;
-    background: none;
-    border: none;
-    color: #6ACFC7;
-    font-size: 1.5em;
-    cursor: pointer;
-}
+
 
 /* Estilos de los iconos */
 .bi {
@@ -154,76 +146,3 @@ header{
     margin-top: auto;
 }
 
-/* Estilos responsivos */
-@media (max-width: 768px) {
-    .header {
-        flex-direction: column;
-        height: auto;
-        padding: 10px;
-    }
-    .nav {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-    }
-    .nav-center {
-        justify-content: flex-start;
-        gap: 5px;
-    }
-    .nav-right {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-    }
-    .header .menu {
-        flex-direction: column;
-        gap: 10px;
-    }
-    .header .logo {
-        margin-right: 0;
-    }
-}
-
-@media (max-width: 480px) {
-    body {
-        font-size: 18px;
-    }
-    .header {
-        padding: 10px 5%;
-    }
-    .header .logo img {
-        height: 50px;
-    }
-    .search-bar {
-        width: 70%;
-    }
-    .menu {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        background-color: #000;
-        position: absolute;
-        top: 120px;
-        left: 0;
-        padding: 10px 0;
-    }
-    .menu li {
-        width: 100%;
-        text-align: center;
-        padding: 10px 0;
-    }
-    .menu li:hover {
-        background-color: #1c4641;
-    }
-    .menu-toggle {
-        display: block;
-    }
-    .nav {
-        align-items: center;
-    }
-    .nav-right {
-        flex-direction: row;
-        justify-content: flex-end;
-        width: 100%;
-    }
-}
