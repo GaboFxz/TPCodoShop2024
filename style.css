@@ -146,3 +146,207 @@ header{
     margin-top: auto;
 }
 
+
+/* ABOUT STYLES */
+p{
+    font-size: 1.1rem;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  ul, li{
+    list-style: none;
+  }
+  
+  .wrap-cta{
+    padding: 1.5rem 0;
+  }
+  
+  .cta-a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: var(--main-c);
+    padding: .5rem 1rem;
+    border-radius: var(--border-r);
+  }
+  
+  h1{
+    font-size: 2.8rem;
+  }
+  h2{
+    font-size: 2.5rem;
+  }
+  h3{
+    font-size: 2.2rem;
+  }
+
+  /** Hero Section **/
+
+.hero-section{
+    height: 90vh;
+    background: url(./img/programmer-dark.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(106, 141, 163, 0.7);
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+  }
+  
+  .wrap-hero-section{
+    max-width: 600px;
+    color: #fff;
+    padding: 15%; 
+  }
+  
+  /** Logo Brand Section **/
+  .secetion{
+    margin: 5rem 0;
+  }
+  
+  .section h2{
+    padding: 2rem 0;
+  }
+  
+  .wrap-logos-section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo-brand{
+    width: 200px;
+    padding: 1rem 2rem;
+    filter: grayscale(1);
+  }
+  
+  /** Wrap Title **/
+  
+  .wrap-title-section{
+    display: flex;
+    justify-content: center;
+    margin: 3rem 1rem;
+  }
+  
+  /** Servicios Section **/
+  
+  .wrap-servicios-section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  
+  .item-servicios-section{
+    padding: 1rem;
+  }
+  
+  .item-servicios-section img{
+    width: 300px;
+    height: 225px;
+  }
+  
+  /** Two Columns Section **/
+  
+  .wrap-two-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .wrap-img_two-column{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+  }
+  
+  .wrap-text-column h3{
+    padding: 2rem 0;
+  }
+  
+  .wrap-text-column p{
+    padding-bottom: 1rem;
+  }
+
+
+/* Estilos responsivos */
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .nav-center {
+        justify-content: flex-start;
+        gap: 5px;
+    }
+    .nav-right {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .header .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .header .logo {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 18px;
+    }
+    .header {
+        padding: 10px 5%;
+    }
+    .header .logo img {
+        height: 50px;
+    }
+    .search-bar {
+        width: 70%;
+    }
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #000;
+        position: absolute;
+        top: 120px;
+        left: 0;
+        padding: 10px 0;
+    }
+    .menu li {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .menu li:hover {
+        background-color: #1c4641;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    .nav {
+        align-items: center;
+    }
+    .nav-right {
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 100%;
+    }
+}
