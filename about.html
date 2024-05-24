@@ -1,53 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Codo Shop</title>
-    
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" href="/assets/img/favicon-32x32.png" type="image/x-icon">
-    <link rel="stylesheet" href="./assets/css/carrito.css">
     <!-- Libreria de iconos font-awesome -->
     <!-- <script src="https://kit.fontawesome.com/d8e1daa47e.js" crossorigin="anonymous"></script> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/carrito.css">
+    <link rel="stylesheet" href="/assets/css/inicio.css">
     <script src="./assets/js/productos.js"></script>
 </head>
 
 <body>
-  <header class="header">
-    <div class="logo">
-        <img class="img" src="/img/logo2 1 (Traced).png" alt="logo marca">
-    </div>
-    <nav class="nav">
-        
-        <button class="menu-toggle" aria-label="Toggle navigation">
-            <i class="bi bi-list"></i>
-        </button>
-        <ul class="menu">
-            <li><a href="shop.html">Shop</a></li>
-            <li><a href="#">Contacto</a></li>
-            <li><a href="#">Acerca de</a></li>
-        </ul>
-        <div class="nav-center">
-            <i class="bi bi-search"></i>
-            <input type="text" class="search-bar" placeholder="Buscar...">
-        </div>
-        <div class="nav-right icons">
-            <div class="login-container">
-                <span class="login-text">Login</span>
-                <i class="bi bi-person-circle"></i> <!-- Icono de usuario -->
+  <header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index_modificado.html">
+                <img class="img logo" src="/img/logo2 1 (Traced).png" alt="logo marca">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Acerca de</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+                </form>
             </div>
-            <i class="bi bi-bag" id="carritoBtn"></i> <!-- Icono de carrito -->
         </div>
     </nav>
 </header>
 
 <section class="hero-section">
     <div class="wrap-hero-section">
-      <h1>Landing Page DropCoding</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quae illo repellat tempora voluptates, reprehenderit quos nam repellendus aspernatur corrupti perspiciatis beatae quo ipsum delectus?</p>
+      <h1>Codo a Codo Shop</h1>
+      <p>En Codo Shop, entendemos que los programadores tienen un estilo único y necesidades específicas. Nuestra tienda online ofrece una colección exclusiva de ropa y accesorios diseñados pensando en los apasionados por el código. Desde cómodas camisetas con frases ingeniosas hasta sudaderas que te mantendrán abrigado durante esas largas sesiones de codificación, aquí encontrarás todo lo que necesitas para combinar tu pasión por la tecnología con tu estilo personal.</p>
       <div class="wrap-cta">
         <a href="/" class="cta-a">Contactanos
         </a>
@@ -71,46 +82,46 @@
     </div>
 
     <div class="wrap-servicios-section">
-      <a href="" class="item-servicios-section">
+      <h6 class="item-servicios-section">
         <img src="./img/1.jpg.png" alt="">
           <p>Buzos</p>
         </img>
-      </a>
-      <a href="" class="item-servicios-section">
+      </h6>
+      <h6 class="item-servicios-section">
         <img src="./img/2.jpg.png" alt="">
           <p>Remeras</p>
         </img>
-      </a>
-      <a href="" class="item-servicios-section">
+      </h6>
+      <h6 class="item-servicios-section">
         <img src="./img/3.jpg.png" alt="">
           <p>Accesorios</p>
         </img>
-      </a>
-      <a href="" class="item-servicios-section">
+      </h6>
+      <h6  class="item-servicios-section">
         <img src="./img/4.jpg.png" alt="">
           <p>Tazas</p>
         </img>
-      </a>
-      <a href="" class="item-servicios-section">
+      </h6>
+      <h6  class="item-servicios-section">
         <img src="./img/5.jpg.png" alt="">
           <p>Marcas</p>
         </img>
-      </a>
-      <a href="" class="item-servicios-section">
+      </h6>
+      <h6  class="item-servicios-section">
         <img src="./img/6.jpg.png" alt="">
           <p>Gorras</p>
         </img>
-      </a>
-      <a href="" class="item-servicios-section">
+      </h6>
+      <h6  class="item-servicios-section">
         <img src="./img/7.jpg.png" alt="">
           <p>Tazas</p>
         </img>
-      </a>
-      <a href="" class="item-servicios-section">
+      </h6>
+      <h6  class="item-servicios-section">
         <img src="./img/8.jpg.png" alt="">
           <p>Frases</p>
         </img>
-      </a>
+      </h6>
     </div>
   </section>
 
@@ -122,20 +133,29 @@
 
     <div class="wrap-two-column">
       <div class="wrap-img_two-column">
-        <img src="img/disenador-trabajando.jpeg" alt="">
+        <img src="./img/programmer-light.jpg" alt="">
       </div>
 
       <div class="wrap-img_two-column">
         <div class="wrap-text-column">
-          <h3>Primera marca, siempre</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur facilis, nemo distinctio beatae quod molestiae illo dolores voluptas quae, autem corrupti maiores similique earum eaque aliquam at modi doloribus. Nam officiis sequi modi! Ipsum, vel!</p>
-          <div class="wrap-cta">
-            <a href="/" class="cta-a">Llamada a la acción</a>
-          </div>
-        </div>
+          <h3><span class="highlight">Nuestra colección incluye: </span></h3>
+          <p><span class="highlight">Camisetas Gráficas:</span></p>
+          <p>Con estampados inspirados en lenguajes de programación, memes tecnológicos y frases motivadoras del mundo del desarrollo.</p>
 
+          <p><span class="highlight">Accesorios Tecnológicos:</span></p>
+          <p>Gorras, mochilas y más, todo con un toque geek que hará que te sientas parte de la comunidad.</p>
+          <p><span class="highlight">Ropa Casual y Profesional:</span></p>
+          <p>Desde pantalones cómodos para trabajar desde casa hasta camisas elegantes para impresionar en cualquier reunión.</p>
+          <div class="wrap-cta">
+            <a href="" class="cta-a">Contactanos</a>
       </div>
     </div>
   </section>
-
+  <footer class="footer">
+    &copy; 2024 Codo Shop. Todos los derechos reservados.
+</footer>
+<!-- Script del carrito -->
+<script src="./assets/js/carrito.js"></script>
+<script src="./main.js"></script>
 </body>
+
