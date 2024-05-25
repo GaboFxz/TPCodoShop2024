@@ -8,19 +8,22 @@ const carritoTotal = document.getElementById('carrito-total');
 
 let productos = [];
 let productosDelCarrito = [];
+let carritoIniciado = false;
 const inicar = () => {
     // Cargamos los productos de nuestra "Base" 
     getProductosAll()
         .then(data => {
             productos =  [...data];
-            console.log('prodcutos', productos);
         })
         .catch(error => {
             console.error('Ocurrió un error al obtener los datos:', error);
         });
 
     // Iniciamos el carrito con los datos del LocalStorage
-    inicarCarrito();
+    if (!carritoIniciado){
+        inicarCarrito();
+        carritoIniciado = true;
+    }
 }
 
 
@@ -116,10 +119,7 @@ const quitarDelCarrito = (id, eliminar) => {
 
 const renderizarCarrito = (producto, existe, borrar, total) =>{
     // Actualizamos el precio del total del carrito
-    //let total = localStorage.getItem('carrito-total') ? JSON.parse(localStorage.getItem('carrito-total')) : 0;
-    console.log('total', total)
     if(total){
-        console.log('ingresa')
         carritoTotal.textContent = `$${total.toLocaleString('es-AR')}`;
         // Quitamos el texto por defecto cuando no hay productos
         document.getElementsByClassName('carrito-total')[0].style.display = 'block';
