@@ -1,10 +1,7 @@
 :root{
-    --bg--gradiente : linear-gradient(90deg, hsla(164, 38%, 18%, 1) 0%, hsla(158, 77%, 77%, 1) 100%)
+    --bg--gradiente : linear-gradient(-90deg, #0D2B3D, #0C0F44, #2F0C2C, #6F0B3B, #192265);
   }
   
-  /*#0C1A1A
-  #6ACFC7*/
-  /*background: linear-gradient(90deg, hsla(164, 38%, 18%, 1) 0%, hsla(158, 77%, 77%, 1) 100%);*/
   * {
     margin: 0;
     padding: 0;
@@ -272,7 +269,7 @@
     font-size: 3em;
     font-weight: bold;
     text-transform: uppercase;
-    background-color: #6ACFC7;
+    background-color: #6d519d;
     color: #fff;
     padding: 0.5em 1em;
     border-radius: 10px;
